@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.roman.project2.MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/basketball_court"
+            android:orientation="vertical"
+            android:weightSum="1"
+
+        >
+
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+                android:weightSum="2"
+            >
+
+                <LinearLayout
+                    android:id="@+id/team1layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    >
+
+                    <EditText
+                        android:id="@+id/setTeamNaam1"
+                        android:layout_width="130dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="20dp"
+                        android:inputType="text"
+                        android:textSize="12sp"
+                        android:hint="Team 1 naam hier"
+                        />
+
+
+                    <TextView
+                        android:id="@+id/team1naam"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Team 1"
+                        android:layout_marginBottom="15dp" />
+
+                    <TextView
+                        android:id="@+id/team1score"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textStyle="bold"
+                        android:textSize="30sp"
+                        />
+
+                    <Button
+                        android:id="@+id/team1buiten"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="updateScores"
+                        android:layout_marginTop="20dp"
+                        android:text="Buiten (+3)"
+                        />
+
+                    <Button
+                        android:id="@+id/team1binnen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="updateScores"
+                        android:layout_marginTop="20dp"
+                        android:text="Binnen (+2)"
+                        />
+
+                    <Button
+                        android:id="@+id/team1vrij"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="updateScores"
+                        android:layout_marginTop="20dp"
+                        android:text="Vrij (+1)"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/team2layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <EditText
+                        android:id="@+id/setTeamNaam2"
+                        android:layout_width="130dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="20dp"
+                        android:inputType="text"
+                        android:textSize="12sp"
+                        android:hint="Team 2 naam hier"
+                        />
+
+                    <TextView
+
+                        android:id="@+id/team2naam"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Team 2"
+                        android:layout_marginBottom="15dp"
+
+                        />
+
+
+
+                    <TextView
+                        android:id="@+id/team2score"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:text="0"
+                        android:textStyle="bold"
+                        android:textSize="30sp"
+                        />
+
+                    <Button
+                        android:id="@+id/team2buiten"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="updateScores"
+                        android:layout_marginTop="20dp"
+                        android:text="Buiten (+3)"
+                        />
+
+                    <Button
+                        android:id="@+id/team2binnen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:onClick="updateScores"
+                        android:text="Binnen (+2)"
+                        />
+
+                    <Button
+                        android:id="@+id/team2vrij"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="updateScores"
+                        android:layout_marginTop="20dp"
+                        android:text="Vrij (+1)"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/resetknop"
+                    android:layout_width="281dp"
+                    android:layout_height="50dp"
+                    android:onClick="herstartSpel"
+                    android:text="(Her)Start Spel"
+                    android:layout_marginTop="20dp"
+                    />
+
+            </LinearLayout>
+
+
+        
+        </LinearLayout>
+        
+        
+
+            
+            
+
+
+
+        
+
+
+
+
+
+
+    </RelativeLayout>
+

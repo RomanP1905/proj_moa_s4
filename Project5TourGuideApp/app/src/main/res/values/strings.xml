@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Project 5 : Tour Guide App</string>
+    <string name="hotel_erve_name">Erve Hulsbeek</string>
+    <string name="hotel_erve_addr">Oude Almeloseweg 13, 7576 PE Oldenzaal, Netherlands</string>
+    <string name="hotel_kruisselt_name">Hotel \'t Kruisselt</string>
+    <string name="hotel_kruisselt_addr">Kruisseltlaan 3, 7587 NM De Lutte, Netherlands</string>
+    <string name="winkel_vijfhoek_name">In den Vijfhoek</string>
+    <string name="winkel_vijfhoek_addr">In Den Vijfhoek, Oldenzaal, Netherlands</string>
+    <string name="winkel_driehoek_addr">Driehoek, Oldenzaal, Netherlands</string>
+    <string name="winkel_driehoek_name">In den Driehoek</string>
+    <string name="rest_kleinafrica_name">Restaurant Klein Africa</string>
+    <string name="rest_kleinafrica_addr">Oude Almeloseweg 6, 7576 PE Oldenzaal, Netherlands</string>
+    <string name="rest_bistropuur_addr">Sint Plechelmusplein 18, 7571 EG Oldenzaal, Netherlands</string>
+    <string name="rest_bistropuur_name">Bistro Puur</string>
+</resources>
